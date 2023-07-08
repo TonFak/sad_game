@@ -1,0 +1,9 @@
+﻿  Checking Build System
+  CMake is re-running because E:/Build/GAME_FINAl/CMakeFiles/generate.stamp is out-of-date.
+    the file 'E:/git/GAME_FINAL/GAME_FINAL/CMakeLists.txt'
+    is newer than 'E:/Build/GAME_FINAl/CMakeFiles/generate.stamp.depend'
+    result='-1'
+  -- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.19045.
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: E:/Build/GAME_FINAl

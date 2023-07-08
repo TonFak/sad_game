@@ -1,0 +1,10 @@
+^E:\BUILD\GAME_FINAL\CMAKEFILES\2A81BBEB3E9FF85ABC5989A7B8A5C319\GENERATE.STAMP.RULE
+setlocal
+"E:\Program Files\bin\cmake.exe" -SE:/git/GAME_FINAL/GAME_FINAL -BE:/Build/GAME_FINAl --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/Build/GAME_FINAl/game_project.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
